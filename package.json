@@ -20,6 +20,7 @@
   "scripts": {
     "test": "webpack -v",
     "build": "webpack build --progress",
+    "prepare": "webpack build --progress",
     "serve": "webpack serve --config webpack.dev.config.js --hot",
     "lint": "eslint src/**",
     "lint:fix": "eslint src/** --fix"
